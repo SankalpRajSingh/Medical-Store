@@ -1,179 +1,174 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>ABC Medical Store</title>
 
-    <style>
-        *{
-            margin:0;
-            padding:0;
-            box-sizing:border-box;
-            font-family:Arial, Helvetica, sans-serif;
-        }
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-        body{
-            background:#f5f7fa;
-        }
+<title>ABC Medical Store</title>
 
-        header{
-            background:#0b8f5b;
-            color:white;
-            padding:20px;
-            text-align:center;
-        }
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 
-        nav{
-            background:#066b44;
-            padding:12px;
-            text-align:center;
-        }
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
 
-        nav a{
-            color:white;
-            text-decoration:none;
-            margin:0 15px;
-            font-weight:bold;
-        }
-
-        .hero{
-            padding:60px 20px;
-            text-align:center;
-            background:white;
-        }
-
-        .hero h1{
-            color:#0b8f5b;
-            font-size:40px;
-        }
-
-        .hero p{
-            margin-top:15px;
-            font-size:18px;
-            color:#555;
-        }
-
-        .btn{
-            display:inline-block;
-            margin-top:25px;
-            background:#0b8f5b;
-            color:white;
-            padding:12px 25px;
-            text-decoration:none;
-            border-radius:5px;
-        }
-
-        .services{
-            display:flex;
-            flex-wrap:wrap;
-            justify-content:center;
-            gap:20px;
-            padding:40px;
-        }
-
-        .card{
-            background:white;
-            width:250px;
-            padding:20px;
-            border-radius:10px;
-            box-shadow:0 3px 8px rgba(0,0,0,0.1);
-            text-align:center;
-        }
-
-        .card h3{
-            color:#0b8f5b;
-            margin-bottom:10px;
-        }
-
-        footer{
-            background:#0b8f5b;
-            color:white;
-            text-align:center;
-            padding:20px;
-            margin-top:30px;
-        }
-
-        @media(max-width:768px){
-            .hero h1{
-                font-size:30px;
-            }
-
-            .services{
-                flex-direction:column;
-                align-items:center;
-            }
-        }
-    </style>
+<link rel="stylesheet" href="style.css">
 
 </head>
 
 <body>
 
 <header>
-    <h1>ABC Medical Store</h1>
-    <p>Your Trusted Healthcare Partner</p>
-</header>
+
+<div class="logo">
+🏥 ABC Medical Store
+</div>
 
 <nav>
-    <a href="#">Home</a>
-    <a href="#">Medicines</a>
-    <a href="#">Products</a>
-    <a href="#">About</a>
-    <a href="#">Contact</a>
+<a href="#">Home</a>
+<a href="#services">Services</a>
+<a href="#why">Why Us</a>
+<a href="#contact">Contact</a>
 </nav>
 
+</header>
+
 <section class="hero">
-    <h1>Quality Medicines at Affordable Prices</h1>
 
-    <p>
-        We provide genuine medicines, healthcare products,
-        and doorstep delivery with trusted service.
-    </p>
+<div>
 
-    <a class="btn" href="https://wa.me/919999999999">
-        Order on WhatsApp
-    </a>
+<h1>Your Trusted Medical Store</h1>
+
+<p>
+Providing Genuine Medicines, Healthcare Products,
+and Fast Service Since 2010.
+</p>
+
+<a href="https://wa.me/919999999999" class="btn">
+Order on WhatsApp
+</a>
+
+</div>
+
 </section>
 
-<section class="services">
+<section id="services">
 
-    <div class="card">
-        <h3>💊 Prescription Medicines</h3>
-        <p>All branded and generic medicines available.</p>
-    </div>
+<h2 class="section-title">Our Services</h2>
 
-    <div class="card">
-        <h3>🩺 Healthcare Products</h3>
-        <p>BP Monitors, Glucometers, Masks and more.</p>
-    </div>
+<div class="cards">
 
-    <div class="card">
-        <h3>🚚 Home Delivery</h3>
-        <p>Fast and reliable medicine delivery.</p>
-    </div>
+<div class="card">
+<h3>💊 Prescription Medicines</h3>
+<p>All branded and generic medicines available.</p>
+</div>
 
-    <div class="card">
-        <h3>⏰ Open 7 Days</h3>
-        <p>Serving customers every day.</p>
-    </div>
+<div class="card">
+<h3>🩺 Healthcare Products</h3>
+<p>BP Machines, Glucometers, Masks, Sanitizers and more.</p>
+</div>
+
+<div class="card">
+<h3>🚚 Home Delivery</h3>
+<p>Quick home delivery within the city.</p>
+</div>
+
+<div class="card">
+<h3>👨‍⚕️ Expert Guidance</h3>
+<p>Friendly staff to help you choose healthcare products.</p>
+</div>
+
+</div>
+
+</section>
+
+<section id="why">
+
+<h2 class="section-title">Why Choose Us?</h2>
+
+<div class="why">
+
+<div class="box">
+<h3>✔ Genuine Medicines</h3>
+<p>100% authentic medicines from trusted suppliers.</p>
+</div>
+
+<div class="box">
+<h3>✔ Affordable Prices</h3>
+<p>Competitive pricing and regular discounts.</p>
+</div>
+
+<div class="box">
+<h3>✔ Fast Delivery</h3>
+<p>Get medicines delivered to your doorstep.</p>
+</div>
+
+</div>
+
+</section>
+
+<section id="contact">
+
+<h2 class="section-title">Contact Us</h2>
+
+<div class="contact">
+
+<div class="contact-info">
+
+<h3>ABC Medical Store</h3>
+
+<br>
+
+<p><strong>📍 Address:</strong><br>
+123 Main Road, Your City
+</p>
+
+<br>
+
+<p><strong>📞 Phone:</strong><br>
++91 9876543210
+</p>
+
+<br>
+
+<p><strong>📧 Email:</strong><br>
+abcmedical@gmail.com
+</p>
+
+<br>
+
+<p><strong>🕘 Timings:</strong><br>
+8:00 AM – 10:00 PM
+</p>
+
+</div>
+
+<div class="map">
+
+<iframe
+src="https://www.google.com/maps/embed?pb="
+allowfullscreen
+loading="lazy">
+</iframe>
+
+</div>
+
+</div>
 
 </section>
 
 <footer>
-    <h3>ABC Medical Store</h3>
 
-    <p>📍 Your City, India</p>
-
-    <p>📞 +91 99999 99999</p>
-
-    <p>✉️ abcmedical@gmail.com</p>
-
-    <p style="margin-top:10px;">
-        © 2026 ABC Medical Store. All Rights Reserved.
-    </p>
+© 2026 ABC Medical Store | All Rights Reserved
 
 </footer>
 
+<a class="whatsapp"
+href="https://wa.me/919999999999">
+💬 WhatsApp
+</a>
+
 </body>
+
 </html>
