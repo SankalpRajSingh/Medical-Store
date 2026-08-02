@@ -1,6 +1,6 @@
 /*=====================================================
       Triveni Super Speciality Clinic
-      Author : Sankalp Raj Singh
+      Author : Sankalp Raj Singh, Aayushman Srivastav
       Version : 1.0
 =====================================================*/
 
